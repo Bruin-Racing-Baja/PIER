@@ -29,6 +29,8 @@ message LogMessage {
     float engine_rpm_error = 26;
     float engine_rpm_deriv_error = 27;
     uint32 brake_light_signal = 28;
-    int32 filtered_brake_light_signal = 29;
-    bool brake_pressed = 30;
+    uint32 control_dominion = 29;
+    float position_command = 30;
+    int32 filtered_brake_light_signal = 31;
+    bool brake_pressed = 32;
 }
