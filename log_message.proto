@@ -31,4 +31,6 @@ message LogMessage {
     uint32 brake_light_signal = 28;
     int32 filtered_brake_light_signal = 29;
     bool brake_pressed = 30;
+    int32 inbound_encoder_limit = 31;
+    int32 outbound_encoder_limit = 32; 
 }
