@@ -33,4 +33,6 @@ message LogMessage {
     bool brake_pressed = 30;
     int32 inbound_encoder_limit = 31;
     int32 outbound_encoder_limit = 32; 
+    int32 software_limit_engaged = 33;
+    float software_limit_vel_command = 34;
 }
